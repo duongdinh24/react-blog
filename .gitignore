@@ -1,0 +1,9 @@
+#Dependencies
+node_modules/
+
+
+#misc
+.env
+
+#other
+images/

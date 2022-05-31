@@ -1,0 +1,62 @@
+.login {
+    height: calc(100vh - 50px);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    background-image: linear-gradient(rgba(255, 255, 255, 0.5),rgba(255, 255, 255, 0.5)), url("http://localhost:3000/assets/img/background-login-page.jpg");
+    background-size: cover;
+    align-items: center;
+    font-family: 'Varela Round', sans-serif;
+}
+
+.login__title {
+    font-size: 50px;
+    margin-top: 100px;
+    flex: 1;
+}
+
+.login__form {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    flex: 6;
+}
+
+.login__form > label {
+    margin: 30px 0 10px;
+    font-size: 16px;
+}
+
+.login__input {
+    width: 200px;
+    background: #fff;
+    padding: 10px;
+    border: none;
+    box-shadow: 0px 2px rgb(102, 100, 100);
+    border-radius: 5px; 
+}
+
+.login__btn {
+    border: none;
+    cursor: pointer;
+    color: #fff;
+    background-color: lightcoral;
+    padding: 10px;
+    font-size: 20px;
+    margin-top: 40px;
+    border-radius: 10px;
+}
+
+.login__btn:hover {
+    opacity: 0.7;
+}
+
+.login__btn:disabled {
+    cursor: not-allowed;
+    background-color: coral;
+}
+
+.login__register-question{
+    flex: 3;
+    font-size: 14px;
+}
